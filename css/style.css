@@ -11,7 +11,27 @@ nav {
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
+
+}
 	
+	nav ul {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+
+	}
+
+
+	nav ul li {
+	background-color: rgb(64,191,75) ;
+	flex-flow: row wrap;
+	align-items: center;
+	list-style-type: none;
+	padding: 1rem;
+	max-width: 100%;
+	border-radius: 0.3rem;
+	}
 
 main {
 	max-width: 1000px;
@@ -32,7 +52,7 @@ h1 {
 h2 {
 	display: flex;
 	justify-content: center;
-	font-family: 'Gabarito', sans-serif;
+	font-family: sans-serif;
 	font-size: 0.5rem;
 }
 
@@ -40,11 +60,11 @@ p {
 	display: flex;
 	justify-content: center;
 	font-family: 'Gabarito;
-	font-size:1em;
+	font-size: 2em;
 }
 
 p ul li a {
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'sans-serif;', sans-serif;
 	font-size: 1em;
 }
 
@@ -55,16 +75,25 @@ p ul li a {
 
 }
 
+@media screen and (min-width:480px){
+	body {
+		background-color: green;
+	}
+
+}
+
+
 @media screen and (max-width:720px){
 	body {
 		background-color: mediumpurple;
 }
 }
 
-@media screen and (max-width:720px){
-.headshot {
+@media screen and (min-width:400px){
+.example-image{
 	
 	flex-direction: row !important;
 	margin: 3rem;
-			
-			
+			}
+
+		

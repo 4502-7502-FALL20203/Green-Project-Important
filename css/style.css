@@ -43,7 +43,8 @@ main {
 
 h1 {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
+	flex-direction: row;
 	font-family: 'serif;', serif;
 	font-size:2em;
 	background-color: rgb(16,234,35);

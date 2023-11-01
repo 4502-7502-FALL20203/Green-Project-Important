@@ -34,12 +34,19 @@ nav {
 	border-radius: 0.3rem;
 	}
 
+
+
 main {
 	max-width: 1000px;
 	margin: auto;
 	font-size: 1.0em;
 	justify-content: center;
 	background-color: rgb(64,191,75);
+}
+
+.intro{
+	background-color: rgb(64,191,75);
+	padding:1rem;
 }
 
 h1 {
@@ -55,7 +62,8 @@ h2 {
 	display: flex;
 	justify-content: center;
 	font-family: sans-serif;
-	font-size: 0.5rem;
+	font-size: 1.0rem;
+	background-color: rgb(64, 190, 23);
 }
 
 p {
@@ -74,16 +82,14 @@ p ul li a {
 	display: flex;
 	justify-content: center;
 	border: none;
-
-.mailing-link img {
-	Max-width: 200px;
 }
 
-}
+.mailing-link img {width:200px}
+
 
 @media screen and (min-width:480px){
 	body {
-		background-color: green;
+/*		background-color: green;*/
 	}
 
 }

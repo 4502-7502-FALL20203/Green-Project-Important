@@ -1,5 +1,12 @@
 body {
 	background-color: rgb(64,191,75);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'IBM Plex Sans', sans-serif;
+	max-width: 100%;
+	overflow: scroll; /* Show scrollbars */
 }
 
 nav {
@@ -9,7 +16,7 @@ nav {
 	font-size:1em;
 	display: flex;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 
 }
@@ -69,7 +76,7 @@ h2 {
 p {
 	display: flex;
 	justify-content: center;
-	font-family: 'Gabarito;
+	font-family: 'Gabarito;'
 	font-size: 2em;
 }
 
@@ -94,10 +101,63 @@ p ul li a {
 
 }
 
+.media-list {
+
+
+}
+
+.media-list img {
+	max-width:200px;
+}
+
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+}
+
+.skip-link:focus{
+  width: unset;
+  height: unset;
+  position: relative;
+  padding: unset;
+  margin: unset;
+  font-size: 2rem;
+}
+  .button_holder {  
+	display: flex;
+	flex-direction: row;
+}
+
+button_next {  }
+button_previous {  }
+
+.stepper {  }
+
+button {
+	background-color: orange;
+	margin: 1rem;
+	padding: 1rem;
+	min-width: 10rem;
+	font-size: 1.2rem;
+	border-radius: 0.5rem;
+}
+
+.button-start {
+/*	background-color: forestgreen;*/
+}
 
 @media screen and (max-width:720px){
 	body {
 		background-color: mediumpurple;
+	 
+		background-color:mediumpurple;
+	
+
 }
 }
 
@@ -106,6 +166,9 @@ p ul li a {
 	
 	flex-direction: row !important;
 	margin: 3rem;
+
+
 			}
+
 
 		

@@ -168,7 +168,12 @@ button {
 }
 
 .gallery-image img {
-	width: 100%;
+	max-width:100%;
+	min-width:200px;
+	/*max-height: 300px*/
+	margin: auto;
+	font-size: 1.0em;
+	justify-content: center;
 }
 
 .hideThis {
